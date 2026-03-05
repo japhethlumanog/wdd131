@@ -42,18 +42,22 @@ header a:hover{
     color: white;
 }
 
-main{
-    display: flex;
+p{
+    font-size: 2em;
 }
+
+main{
+    display: grid;
+    grid-template-columns: 80% auto;
+}
+
 
 .section1{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: pink;
-    width: 80%;
-    height: 50em;
-
+    height: 1000px;
 }
 
 aside{
@@ -61,8 +65,7 @@ aside{
     justify-content: center;
     align-items: center;
     background-color: aquamarine;
-    width: 20%;
-    height: 50em;
+    height: 1000px;
 }
 
 footer{
