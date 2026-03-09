@@ -23,10 +23,14 @@ body{
     background-color: var(--background-color);
 }
 
+header{
+    background-color: var(--span-color);
+}
+
 #course-title{
     display: block;
     text-align: center;
-    background-color: var(--span-color);
+    
     padding: 30px;
     font-size: 30px;
     font-weight: bold;
