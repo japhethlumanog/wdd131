@@ -88,12 +88,15 @@ main h1{
 }
 
 .card h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #000000;
     color: var(--text-color2);
     font-weight: 500;
-    padding: 10px;
+    padding: 18.1px;
     border-radius: 10px 10px 0 0;
-    font-family: "Pacifico", cursive;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .card1{
@@ -153,9 +156,6 @@ main h1{
      
  }
 
- .card2H2{
-    text-align: center;
- }
 
 
 .card ul{
