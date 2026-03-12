@@ -1,0 +1,116 @@
+:root{
+    --text-color: #000000;
+    --text-color1: #ffff;
+    --color-one: #4f0f87;
+    --color-two: #f1e2ff;
+    --font-one: "Edu NSW ACT Cursive", cursive;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-one);
+    padding: 20px;
+    margin-bottom: 40px;
+    max-width: 100%;
+}
+
+header h1{
+    font-size: clamp(1.8rem, 4vw, 3rem);
+    white-space: nowrap;
+    color: var(--text-color1);
+    font-family: var(--font-one);
+}
+
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.5em;
+}
+
+header nav ul li {
+    display: inline;
+    list-style: none;
+    color: var(--text-color1);
+    transition: .3s ease;
+    font-weight: lighter;
+    padding-inline: 20px;
+    padding-block: 3px;
+    border-radius: 10px;
+    
+}
+
+header nav ul li a{
+    color: var(--text-color1);
+    text-decoration: none;
+}
+
+
+
+
+header nav ul li:hover{
+    color: var(--text-color);
+    background-color: var(--color-two);
+    transform: scale(1.1);
+}
+
+header nav ul li a:hover{
+    color: var(--text-color);
+}
+
+#menu {
+    display: none;
+}
+
+
+main{ 
+  max-width: 840px;
+  margin: 0 auto;
+}
+
+main h2{
+    text-align: center;
+}
+.temple{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 3rem;
+    column-gap: 2rem;
+    padding: 30px 0 60px 0;
+}
+
+.temple figure figcaption{
+    text-align: center;
+}
+
+.temple figure img{
+    width: 16em;
+    height: 10em;
+    border-radius: 2px;
+    box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+footer{
+    text-align: center;
+    background-color: var(--color-one);
+    padding: 20px;
+    color: var(--text-color1);
+}
+
+footer #lastModified{
+    margin-top: 10px;
+}
