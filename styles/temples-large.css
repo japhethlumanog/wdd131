@@ -2,7 +2,7 @@
     --text-color: #000000;
     --text-color1: #ffff;
     --color-one: #4f0f87;
-    --color-two: #f1e2ff;
+    --color-two: #ffffff;
     --font-one: "Edu NSW ACT Cursive", cursive;
 }
 
@@ -62,13 +62,12 @@ header nav ul li a{
 
 
 header nav ul li:hover{
-    color: var(--text-color);
     background-color: var(--color-two);
     transform: scale(1.1);
 }
 
 header nav ul li a:hover{
-    color: var(--text-color);
+    color: var(--color-one);
 }
 
 #menu {
