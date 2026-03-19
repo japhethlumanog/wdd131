@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place</title>
+    <meta name="description" content="My country Philippines ">
+    <meta name="author" content="Japheth James D. Lumanog">
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>
+            Philippines
+        </h1>
+    </header>
+    <main>
+       <picture> 
+            <source media="(min-width: 1200px )" srcset="images/hero-large.webp">
+            <source media="(min-width: 800px )" srcset="images/hero-medium.webp">
+            <img src="images/hero-small.webp" alt="Philippines mountains" loading="lazy">
+       </picture>
+       <section class="data-box">
+            <h3>Data</h3>
+            <ul>
+                <li><strong>Area:</strong> 300,000 sq km</li>
+                <li><strong>Population:</strong> 114,000,000+</li>
+                <li><strong>Capital:</strong> Manila</li>
+                <li><strong>Languages:</strong> Filipino, English</li>
+                <li><strong>Currency:</strong> Philippine Peso (₱)</li>
+                <li><strong>Time Zone:</strong> UTC+8</li>
+                <li><strong>Calling Code:</strong> +63</li>
+                <li><strong>Internet TLD:</strong> .ph</li>
+            </ul>
+       </section>
+       <section class="weather-box">
+            <h3>Weather</h3>
+            <div class="weather-icon">
+                <img src="images/rain.svg.svg" alt="weather icon">
+            </div>
+            <ul>
+                <li><strong>Temperature:</strong> 30°C</li>
+                <li><strong>Conditions:</strong> Sunny</li>
+                <li><strong>Wind:</strong> 10 km/h</li>
+                <li><strong>Wind Chill: <span id="windChill"></span></strong></li>
+            </ul>
+       </section>
+    </main>
+    <footer>
+        <p>
+            &copy; <span id="currentYear"></span> | Japheth James D. Lumanog | The Philippines
+        </p>
+
+        <p id="lastModified"></p>
+    </footer>
+    
+    
+</body>
+</html>
+<!-- images/hero-large.webp 1500w, hero-medium.webp 1200w -->
+ <!-- images/hero-medium.webp 1000w, hero-small.webp 400w -->
