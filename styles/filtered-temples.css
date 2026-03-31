@@ -1,0 +1,38 @@
+@media (max-width: 940px ) {
+
+    #menu {
+    display: inline-block;
+    position: absolute;
+	font-size: clamp(1.8rem, 4vw, 3rem);
+	border: 0;
+	background: none;
+	color: var(--text-color);
+	right: 1rem;
+    }
+
+    #menu::before{
+        content: "☰";
+    }
+
+    #menu.open::before {
+	content: "❌";
+    }
+
+    header{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    header nav ul{
+        display: none;
+        flex-direction: column;
+    }
+
+    .navigation.open {
+        display: flex;
+        flex-direction: column;
+        gap: .5em;
+    }
+}
