@@ -62,7 +62,7 @@ header {
     width: 4em;
 }
 
-.logo label {
+.tLogo {
     font-size: 2em;
     font-family: var(--font-heading);
     color: var(--color-primary);
