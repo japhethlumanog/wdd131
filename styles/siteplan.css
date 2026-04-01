@@ -107,7 +107,7 @@ nav ul li:hover {
     justify-content: center;
     gap: var(--spacing-sm);
     height: 70vh;
-    background: linear-gradient(rgba(0,0,0,0.3)), url(/images/hero-chocolate.jpg);
+    background: linear-gradient(rgba(0,0,0,0.3)), url(../images/hero-chocolate.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
