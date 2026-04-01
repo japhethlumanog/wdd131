@@ -95,9 +95,9 @@ nav ul li:hover {
     
 }
 
-/* main {
-    background-color: var(--color-text-light);
-} */
+main {
+    background-color: var(--color-bg);
+}
 
 .hero {
     display: flex;
@@ -112,7 +112,7 @@ nav ul li:hover {
     background-position: center;
     background-repeat: no-repeat;
     color: var(--color-bg);
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+    /* box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4); */
 }
 
 .hero h1 {
@@ -146,7 +146,7 @@ nav ul li:hover {
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
-    background-color: var(--color-bg);
+    background-color: var(--color-white);
     padding: 2em;
 }
 
