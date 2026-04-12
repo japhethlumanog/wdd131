@@ -199,4 +199,18 @@ window.addEventListener('DOMContentLoaded', () => {
   }
 
   loadSavedCategory();
+
+  const today = new Date();
+  const options = { year: 'numeric', month: 'long', day: 'numeric' };
+  const formattedDate = today.toLocaleDateString('en-US', options);
+  
+  const currentYearElement = document.getElementById("currentYear");
+  if (currentYearElement) {
+    currentYearElement.textContent = today.getFullYear();
+  }
+  
+  const lastModifiedElement = document.getElementById("lastModified");
+  if (lastModifiedElement) {
+    lastModifiedElement.textContent = "Last Modified: " + document.lastModified;
+  }
 });

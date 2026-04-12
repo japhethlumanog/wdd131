@@ -220,6 +220,25 @@ main {
   border-top: 1px solid #e6d7cb;
 }
 
+footer {
+  background: var(--color-primary);
+  color: var(--color-bg);
+  padding: 24px;
+  text-align: center;
+  margin-top: auto;
+}
+
+footer p {
+  margin: 8px 0;
+  font-size: 0.9rem;
+}
+
+footer #currentYear,
+footer #lastModified {
+  font-weight: 600;
+  color: var(--color-accent);
+}
+
 .product-intro,
 .form-section,
 .reference-content {
@@ -307,7 +326,6 @@ main {
   margin-top: 16px;
 }
 
-/* Modern Star Rating Styles */
 .rating {
   border: none;
   padding: 0;
