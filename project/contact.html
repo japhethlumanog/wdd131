@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chocolate Bliss | Contact</title>
+  <meta name="description" content="Contact Chocolate Bliss to ask a question, request a custom box, or save your order preferences.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <img src="../images/logo.svg" alt="Chocolate Bliss logo" class="brand-logo">
+      <div>
+        <p class="eyebrow">Chocolate Bliss</p>
+        <h1>Contact us</h1>
+      </div>
+    </div>
+    <nav aria-label="Main navigation">
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+        <li><a href="references.html">References</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="form-section">
+      <div>
+        <p class="eyebrow">Send your request</p>
+        <h2>Tell us what you need, and we’ll preserve it for your next visit.</h2>
+        <p>Use the form to request a gift box, ask a question, or save your favorite chocolate style in your browser.</p>
+      </div>
+      <form id="contact-form" novalidate>
+        <div class="form-group">
+          <label for="name">Full name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="occasion">Occasion</label>
+          <select id="occasion" name="occasion" required>
+            <option value="">Select an occasion</option>
+            <option value="birthday">Birthday</option>
+            <option value="thank-you">Thank you</option>
+            <option value="holiday">Holiday</option>
+            <option value="everyday">Everyday treat</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="preferences">Flavor preference</label>
+          <select id="preferences" name="preferences" required>
+            <option value="">Choose one</option>
+            <option value="dark">Dark chocolate</option>
+            <option value="milk">Milk chocolate</option>
+            <option value="fruit">Fruit-filled</option>
+            <option value="salted">Salted caramel</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" required placeholder="Tell us your preferred delivery date or gift note."></textarea>
+        </div>
+        <div class="form-actions">
+          <button type="submit" class="btn">Submit request</button>
+          <button type="button" id="load-saved" class="btn btn-secondary">Load saved request</button>
+        </div>
+      </form>
+      <section id="form-result" class="result-panel" aria-live="polite"></section>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Chocolate Bliss. Designed and developed by Japheth James D. Lumanog.</p>
+    <a href="references.html">References</a>
+  </footer>
+
+  <script defer src="scripts.js"></script>
+</body>
+</html>

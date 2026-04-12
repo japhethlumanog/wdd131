@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chocolate Bliss | Products</title>
+  <meta name="description" content="Browse Chocolate Bliss product collections and choose the right handmade chocolate gift for your occasion.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <img src="../images/logo.svg" alt="Chocolate Bliss logo" class="brand-logo">
+      <div>
+        <p class="eyebrow">Chocolate Bliss</p>
+        <h1>Product collections</h1>
+      </div>
+    </div>
+    <nav aria-label="Main navigation">
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html" aria-current="page">Products</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="references.html">References</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="product-intro">
+      <div>
+        <p class="eyebrow">Choose your perfect box</p>
+        <h2>Find chocolates for every celebration, mood, and gift.</h2>
+        <p>Filter the collection by flavor preference, occasion, or mood to see the right box for you.</p>
+      </div>
+      <div class="filter-panel">
+        <label for="category-select">Filter by category</label>
+        <select id="category-select" name="category">
+          <option value="all">All Collections</option>
+          <option value="bars">Bars</option>
+          <option value="truffles">Truffles</option>
+          <option value="covered">Covered</option>
+          <option value="mix">Mix</option>
+          <option value="cookies">Cookies</option>
+        </select>
+      </div>
+    </section>
+
+    <section id="product-list" class="product-grid" aria-live="polite">
+      <p class="loading-text">Loading chocolates...</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Chocolate Bliss. Designed and developed by Japheth James D. Lumanog.</p>
+    <a href="references.html">References</a>
+  </footer>
+
+  <script defer src="scripts.js"></script>
+</body>
+</html>
