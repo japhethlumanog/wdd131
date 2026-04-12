@@ -13,6 +13,8 @@
 }
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -196,6 +198,10 @@ main {
 
 .story {
   grid-template-columns: 1.4fr 1fr;
+}
+
+.story img{
+  margin-bottom: 40px;
 }
 
 .cta-card {
